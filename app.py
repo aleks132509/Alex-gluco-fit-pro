@@ -10,7 +10,7 @@ import io
 # 1. CONFIGURARE PAGINĂ & DESIGN ENTERPRISE
 # ---------------------------------------------------------
 st.set_page_config(
-    page_title="GlucoFit Clinical AI Pro - Tîrnăveanu Ionuț Alexandru",
+    page_title="GlucoFit Clinical AI Pro - Alex",
     page_icon="🧬",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -30,28 +30,28 @@ st.markdown("""
 # 2. BAZA DE DATE CLINICE: PACIENT & SCHEMA DE TRATAMENT
 # ---------------------------------------------------------
 PATIENT_PROFILE = {
-    "nume": "Tîrnăveanu Ionuț Alexandru",[span_4](start_span)[span_4](end_span)[span_5](start_span)[span_5](end_span)
-    "varsta": 38,[span_6](start_span)[span_6](end_span)[span_7](start_span)[span_7](end_span)
-    "cnp": "1871225160028",[span_8](start_span)[span_8](end_span)[span_9](start_span)[span_9](end_span)
-    "data_nasterii": "25.12.1987",[span_10](start_span)[span_10](end_span)[span_11](start_span)[span_11](end_span)
-    "telefon": "0730291021",[span_12](start_span)[span_12](end_span)[span_13](start_span)[span_13](end_span)
-    "adresa": "București",[span_14](start_span)[span_14](end_span)[span_15](start_span)[span_15](end_span)
-    "medic_curant": "Dr. Ciobanu Anda / Dr. Parasca Diana Maria",[span_16](start_span)[span_16](end_span)[span_17](start_span)[span_17](end_span)
-    "data_reteta": "11.09.2026",[span_18](start_span)[span_18](end_span)[span_19](start_span)[span_19](end_span)
+    "nume": "Alex",
+    "varsta": 38,
+    "cnp": "•••••••••••••",
+    "data_nasterii": "25.12.1987",
+    "telefon": "0730291021",
+    "adresa": "București",
+    "medic_curant": "Dr. Ciobanu Anda / Dr. Parasca Diana Maria",
+    "data_reteta": "11.09.2026",
     "greutate_curenta": 78.5,
     "inaltime": 178,
     "obiectiv_greutate": 74.0,
     "tratament_farmacologic": [
-        {"id": 1, "medicament": "Lagosa 150 mg", "doza": "1 - 0 - 1", "orar": "Dimineața și Seara, după masă", "rol": "Protecție și regenerare hepatică"},[span_20](start_span)[span_20](end_span)[span_21](start_span)[span_21](end_span)
-        {"id": 2, "medicament": "Lipantil Nano 145 mg", "doza": "- 1 -", "orar": "La Prânz, după masă", "rol": "Scădere trigliceride / dislipidemie mixtă"},[span_22](start_span)[span_22](end_span)[span_23](start_span)[span_23](end_span)
-        {"id": 3, "medicament": "Sortis 20 mg", "doza": "- - 1", "orar": "Seara, după masă", "rol": "Control colesterolemie LDL / stabiliere placă ateromatosă"},[span_24](start_span)[span_24](end_span)[span_25](start_span)[span_25](end_span)
-        {"id": 4, "medicament": "Omacor 1000 mg", "doza": "1 1 1", "orar": "Dimineața, Prânz, Seara, după masă", "rol": "Acizi grași polinesaturați Omega-3 / cardioprotecție"},[span_26](start_span)[span_26](end_span)[span_27](start_span)[span_27](end_span)
-        {"id": 5, "medicament": "Siofor 1000 mg (Metformină)", "doza": "1 - 1", "orar": "Dimineața și Seara, după masă", "rol": "Sensibilitate la insulină / reducerea gluconeogenezei hepatice"},[span_28](start_span)[span_28](end_span)[span_29](start_span)[span_29](end_span)
-        {"id": 6, "medicament": "Diaprel MR 60 mg", "doza": "1 - -", "orar": "Dimineața, înainte de masă", "rol": "Secretogog de insulină cu acțiune prelungită (control glicemie à jeun)"},[span_30](start_span)[span_30](end_span)[span_31](start_span)[span_31](end_span)
-        {"id": 7, "medicament": "Larginina 1000 mg", "doza": "- 1 -", "orar": "La Prânz, 10 zile / lună", "rol": "Oxid nitric / vasodilatație și suport vascular"},[span_32](start_span)[span_32](end_span)[span_33](start_span)[span_33](end_span)
-        {"id": 8, "medicament": "Atacand 8 mg", "doza": "- - 1", "orar": "Seara, după masă", "rol": "Blocant al receptorilor de angiotensină II / protecție renală și TA"},[span_34](start_span)[span_34](end_span)[span_35](start_span)[span_35](end_span)
-        {"id": 9, "medicament": "Nebilet 5 mg", "doza": "1/2 - -", "orar": "Dimineața, după masă", "rol": "Beta-blocant cardioselectiv / ritm cardiac și TA"},[span_36](start_span)[span_36](end_span)[span_37](start_span)[span_37](end_span)
-        {"id": 10, "medicament": "Aspenter 75 mg", "doza": "- 1 -", "orar": "La Prânz, după masă", "rol": "Antiagregant plachetar / profilaxie cardiovasculară"}[span_38](start_span)[span_38](end_span)[span_39](start_span)[span_39](end_span)
+        {"id": 1, "medicament": "Lagosa 150 mg", "doza": "1 - 0 - 1", "orar": "Dimineața și Seara, după masă", "rol": "Protecție și regenerare hepatică"},
+        {"id": 2, "medicament": "Lipantil Nano 145 mg", "doza": "- 1 -", "orar": "La Prânz, după masă", "rol": "Scădere trigliceride / dislipidemie mixtă"},
+        {"id": 3, "medicament": "Sortis 20 mg", "doza": "- - 1", "orar": "Seara, după masă", "rol": "Control colesterolemie LDL / stabiliere placă ateromatosă"},
+        {"id": 4, "medicament": "Omacor 1000 mg", "doza": "1 1 1", "orar": "Dimineața, Prânz, Seara, după masă", "rol": "Acizi grași polinesaturați Omega-3 / cardioprotecție"},
+        {"id": 5, "medicament": "Siofor 1000 mg (Metformină)", "doza": "1 - 1", "orar": "Dimineața și Seara, după masă", "rol": "Sensibilitate la insulină / reducerea gluconeogenezei hepatice"},
+        {"id": 6, "medicament": "Diaprel MR 60 mg", "doza": "1 - -", "orar": "Dimineața, înainte de masă", "rol": "Secretogog de insulină cu acțiune prelungită (control glicemie à jeun)"},
+        {"id": 7, "medicament": "Larginina 1000 mg", "doza": "- 1 -", "orar": "La Prânz, 10 zile / lună", "rol": "Oxid nitric / vasodilatație și suport vascular"},
+        {"id": 8, "medicament": "Atacand 8 mg", "doza": "- - 1", "orar": "Seara, după masă", "rol": "Blocant al receptorilor de angiotensină II / protecție renală și TA"},
+        {"id": 9, "medicament": "Nebilet 5 mg", "doza": "1/2 - -", "orar": "Dimineața, după masă", "rol": "Beta-blocant cardioselectiv / ritm cardiac și TA"},
+        {"id": 10, "medicament": "Aspenter 75 mg", "doza": "- 1 -", "orar": "La Prânz, după masă", "rol": "Antiagregant plachetar / profilaxie cardiovasculară"}
     ]
 }
 
@@ -133,7 +133,7 @@ CLINICAL_RECIPES_DATABASE = [
 # 4. SIDEBAR & NAVIGARE PRINCIPALĂ
 # ---------------------------------------------------------
 st.sidebar.markdown(f"### 🛡️ Panel de Control")
-st.sidebar.info(f"**Pacient:** {PATIENT_PROFILE['nume']}\n\n**Vârsta:** {PATIENT_PROFILE['varsta']} ani[span_40](start_span)[span_40](end_span)[span_41](start_span)[span_41](end_span)\n\n**CNP:** {PATIENT_PROFILE['cnp']}")
+st.sidebar.info(f"**Pacient:** {PATIENT_PROFILE['nume']}\n\n**Vârsta:** {PATIENT_PROFILE['varsta']} ani\n\n**CNP:** {PATIENT_PROFILE['cnp']}")
 
 rol_utilizator = st.sidebar.radio("Selectează Rolul:", ["Alex (Admin & Pacient)", "Utilizator Standard"])
 
@@ -164,10 +164,10 @@ if meniu_principal == "🩺 Schema de Tratament & Alerte Farmacologice":
 
     st.markdown("### ⚡ Alerte Clinice & Reguli de Asociere Cronologică")
     st.warning("""
-    - **Diaprel MR 60 mg:** Se administrează **în mod obligatoriu înainte de masă** (dimineața) pentru a stimula secreția de insulină în momentul sosirii glucozei[span_42](start_span)[span_42](end_span)[span_43](start_span)[span_43](end_span).
-    - **Siofor 1000 mg (Metformină):** Se ia **după masă** (dimineața și seara) pentru a reduce intoleranța gastrică[span_44](start_span)[span_44](end_span)[span_45](start_span)[span_45](end_span).
-    - **Larginina 1000 mg:** Are caracter ciclic — se ia **10 zile pe lună**, la prânz, după masă[span_46](start_span)[span_46](end_span)[span_47](start_span)[span_47](end_span).
-    - **Protecție Hepatică & Cardiovasculară:** Lagosa, Lipantil Nano, Sortis, Omacor, Atacand, Nebilet și Aspenter sunt sincronizate corect pentru a susține profilul lipidic, tensiunea arterială și endoteliul vascular[span_48](start_span)[span_48](end_span)[span_49](start_span)[span_49](end_span).
+    - **Diaprel MR 60 mg:** Se administrează **în mod obligatoriu înainte de masă** (dimineața) pentru a stimula secreția de insulină în momentul sosirii glucozei.
+    - **Siofor 1000 mg (Metformină):** Se ia **după masă** (dimineața și seara) pentru a reduce intoleranța gastrică.
+    - **Larginina 1000 mg:** Are caracter ciclic — se ia **10 zile pe lună**, la prânz, după masă.
+    - **Protecție Hepatică & Cardiovasculară:** Lagosa, Lipantil Nano, Sortis, Omacor, Atacand, Nebilet și Aspenter sunt sincronizate corect pentru a susține profilul lipidic, tensiunea arterială și endoteliul vascular.
     """)
 
 # ---------------------------------------------------------
@@ -219,7 +219,6 @@ elif meniu_principal == "📈 Simulator Glicemie Postprandială & Slăbit":
 
     with col_s2:
         if ruleaza_sim:
-            # Calcul estimativ avansat
             bonus_scadere = 15 if "15 min" in miscare else (28 if "30 min" in miscare else 0)
             pic_glicemic = glic_start + 16 - bonus_scadere
             if pic_glicemic < 100: pic_glicemic = 100
@@ -228,7 +227,6 @@ elif meniu_principal == "📈 Simulator Glicemie Postprandială & Slăbit":
             st.metric("Vârf Glicemic Estimat (la 60 min)", f"{pic_glicemic} mg/dL", "Interval sigur (<140 mg/dL)")
             st.metric("Rată Estimată Slăbit (Lunar)", "-4.2 kg", "Menținere masă musculară")
 
-            # Grafic Plotly interactiv
             timp_ax = ['0m (Înainte)', '30m', '60m (Vârf)', '90m', '120m (Stabilizare)']
             valori_glic = [glic_start, glic_start + 8, pic_glicemic, pic_glicemic - 5, glic_start - 2]
             
@@ -241,7 +239,7 @@ elif meniu_principal == "📈 Simulator Glicemie Postprandială & Slăbit":
 # ---------------------------------------------------------
 elif meniu_principal == "🏆 Gamification, XP & Realizări":
     st.markdown('<p class="main-title">🏆 Gamification & Performanță Clinică</p>', unsafe_allow_html=True)
-    st.markdown('<p class="subtitle>Transformă disciplina terapeutică într-o experiență interactivă cu puncte XP și badge-uri.</p>', unsafe_allow_html=True)
+    st.markdown('<p class="subtitle">Transformă disciplina terapeutică într-o experiență interactivă cu puncte XP și badge-uri.</p>', unsafe_allow_html=True)
 
     col_g1, col_g2, col_g3 = st.columns(3)
     col_g1.markdown('<div class="metric-box"><h3>🔥 14 Zile</h3><p>Streak Terapeutic</p></div>', unsafe_allow_html=True)
